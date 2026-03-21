@@ -22,10 +22,10 @@
       "openai",
       "gemini"
     ],
-    "thumbnail": "https://raw.githubusercontent.com/vibedepot/registry/main/apps/email-writer/thumbnail.png",
-    "bundle": "https://github.com/vibedepot/registry/releases/download/email-writer-v0.1.0/email-writer-0.1.0.zip",
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/email-writer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/email-writer/releases/0.1.0.zip",
     "checksum": "12ec39b724e83a1a0234ab49d3c4c7e8e232dc2ed796185b4dcbbf7064bb57d3",
     "installs": 0,
-    "updatedAt": "2026-03-21T06:58:55.075Z"
+    "updatedAt": "2026-03-21T07:19:22.314Z"
   }
 ]

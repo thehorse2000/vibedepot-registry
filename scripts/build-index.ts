@@ -8,8 +8,7 @@ import type { RegistryEntry } from '../schemas/registry-entry.schema.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const APPS_DIR = path.resolve(__dirname, '..', 'apps');
 const OUTPUT_PATH = path.resolve(__dirname, '..', 'registry.json');
-const GITHUB_BASE = 'https://raw.githubusercontent.com/vibedepot/registry/main';
-const RELEASE_BASE = 'https://github.com/vibedepot/registry/releases/download';
+const GITHUB_BASE = 'https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main';
 
 function computeChecksum(filePath: string): string {
   const data = fs.readFileSync(filePath);
@@ -55,8 +54,8 @@ function main() {
       ? `${GITHUB_BASE}/apps/${m.id}/${m.thumbnail}`
       : undefined;
 
-    // Compute bundle URL
-    const bundle = `${RELEASE_BASE}/${m.id}-v${m.version}/${m.id}-${m.version}.zip`;
+    // Compute bundle URL (served from raw.githubusercontent via the releases/ dir in the repo)
+    const bundle = `${GITHUB_BASE}/apps/${m.id}/releases/${m.version}.zip`;
 
     // Compute checksum from release zip if present
     const zipPath = path.join(APPS_DIR, appName, 'releases', `${m.version}.zip`);
