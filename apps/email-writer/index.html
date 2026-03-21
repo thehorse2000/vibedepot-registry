@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Writer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Email Writer</h1>
+      <p class="subtitle">Describe your email and get a polished draft</p>
+    </header>
+
+    <div class="form-group">
+      <label for="tone">Tone</label>
+      <select id="tone">
+        <option value="professional">Professional</option>
+        <option value="casual">Casual</option>
+        <option value="friendly">Friendly</option>
+        <option value="formal">Formal</option>
+        <option value="apologetic">Apologetic</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="prompt">What should the email say?</label>
+      <textarea
+        id="prompt"
+        rows="4"
+        placeholder="e.g., Decline a meeting invite politely, suggest rescheduling to next week..."
+      ></textarea>
+    </div>
+
+    <div class="actions">
+      <button id="generateBtn" onclick="generateEmail()">Generate Email</button>
+      <button id="streamBtn" onclick="generateEmailStream()">Generate (Streaming)</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">
+      Generating your email...
+    </div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Generated Email</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button onclick="saveDraft()">Save Draft</button>
+      </div>
+    </div>
+
+    <div id="draftsSection" style="display: none;">
+      <h2>Saved Drafts</h2>
+      <div id="draftsList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

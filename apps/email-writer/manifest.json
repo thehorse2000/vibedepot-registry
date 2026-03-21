@@ -1,0 +1,19 @@
+{
+  "id": "email-writer",
+  "name": "Email Writer",
+  "version": "0.1.0",
+  "description": "AI-powered email drafting assistant. Describe your email and get a polished draft instantly.",
+  "longDescription": "Email Writer uses AI to help you draft professional, casual, or formal emails in seconds. Simply describe what you want to say, pick a tone, and get a polished draft ready to send. Save drafts for later and use streaming for real-time generation. Supports multiple AI providers including Anthropic, OpenAI, and Gemini.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "productivity",
+  "keywords": ["email", "writing", "ai", "drafting"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

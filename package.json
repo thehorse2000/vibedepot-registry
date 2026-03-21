@@ -1,0 +1,18 @@
+{
+  "name": "@vibedepot/registry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VibeDepot app registry — the public catalog of apps available in the Store",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "build-index": "tsx scripts/build-index.ts"
+  },
+  "devDependencies": {
+    "semver": "^7.6.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "zod": "^3.23.0",
+    "@types/node": "^20.14.0",
+    "@types/semver": "^7.5.0"
+  }
+}

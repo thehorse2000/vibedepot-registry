@@ -1,0 +1,31 @@
+[
+  {
+    "id": "email-writer",
+    "name": "Email Writer",
+    "version": "0.1.0",
+    "description": "AI-powered email drafting assistant. Describe your email and get a polished draft instantly.",
+    "longDescription": "Email Writer uses AI to help you draft professional, casual, or formal emails in seconds. Simply describe what you want to say, pick a tone, and get a polished draft ready to send. Save drafts for later and use streaming for real-time generation. Supports multiple AI providers including Anthropic, OpenAI, and Gemini.",
+    "author": "vibedepot",
+    "category": "productivity",
+    "keywords": [
+      "email",
+      "writing",
+      "ai",
+      "drafting"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/vibedepot/registry/main/apps/email-writer/thumbnail.png",
+    "bundle": "https://github.com/vibedepot/registry/releases/download/email-writer-v0.1.0/email-writer-0.1.0.zip",
+    "checksum": "12ec39b724e83a1a0234ab49d3c4c7e8e232dc2ed796185b4dcbbf7064bb57d3",
+    "installs": 0,
+    "updatedAt": "2026-03-21T06:56:20.535Z"
+  }
+]

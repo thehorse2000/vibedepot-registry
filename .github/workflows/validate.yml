@@ -1,0 +1,36 @@
+name: Validate Apps
+
+on:
+  pull_request:
+    paths:
+      - 'apps/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install
+
+      - name: Run manifest validation
+        run: npm run validate
+
+      - name: Check bundle sizes
+        run: |
+          find apps -name '*.zip' -size +5M | while read f; do
+            echo "::error::Bundle too large: $f ($(du -h "$f" | cut -f1))"
+            exit 1
+          done
+
+      - name: Scan for API keys
+        run: |
+          if grep -rE '(sk-[a-zA-Z0-9]{20,}|AKIA[A-Z0-9]{16}|AIza[a-zA-Z0-9_\-]{35})' apps/ --include='*.js' --include='*.ts' --include='*.html'; then
+            echo "::error::Potential API key detected in source files"
+            exit 1
+          fi
