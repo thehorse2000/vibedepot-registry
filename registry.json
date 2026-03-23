@@ -26,7 +26,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/alt-text-generator/releases/0.1.0.zip",
     "checksum": "3c5c63bbe4e773d380c759f85746d099999d6a8ec49c78cb850fad4672ade2c1",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.564Z"
+    "updatedAt": "2026-03-23T11:14:46.267Z"
   },
   {
     "id": "changelog-writer",
@@ -56,7 +56,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/changelog-writer/releases/0.1.0.zip",
     "checksum": "52da4fcee670614189a201e44810fde7ff5dac8c8d7d4c95379e16f091b7af44",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.565Z"
+    "updatedAt": "2026-03-23T11:14:46.268Z"
   },
   {
     "id": "contract-summarizer",
@@ -85,7 +85,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/contract-summarizer/releases/0.1.0.zip",
     "checksum": "860aa771820341b678411772022eed7254992b89417232396ff652530374c061",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.565Z"
+    "updatedAt": "2026-03-23T11:14:46.268Z"
   },
   {
     "id": "csv-analyzer",
@@ -114,7 +114,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/csv-analyzer/releases/0.1.0.zip",
     "checksum": "f6f59a25b0759c2e814f0854ae0db189c4daffa1bf10c4ce55c803f034275054",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.565Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "email-writer",
@@ -143,7 +143,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/email-writer/releases/0.1.0.zip",
     "checksum": "12ec39b724e83a1a0234ab49d3c4c7e8e232dc2ed796185b4dcbbf7064bb57d3",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.566Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "file-summarizer",
@@ -172,7 +172,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/file-summarizer/releases/0.1.0.zip",
     "checksum": "c76d29d6ebf7d2eccf5264b7da0ee2f8d78781f707f2dfe6208f8c94f22c451f",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.566Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "job-description-scorer",
@@ -201,7 +201,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/job-description-scorer/releases/0.1.0.zip",
     "checksum": "37d4922b90f8b12346a01f2de52988a9065f5d63c1a9abf53b81b7f2128d36b7",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.566Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "local-chat-history",
@@ -231,7 +231,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/local-chat-history/releases/0.1.0.zip",
     "checksum": "47cd04db11415540a0ab69d7d0f5abb4aae891a5247ca8322cff2ac2a30c1abf",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.566Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "meeting-notes-cleaner",
@@ -261,7 +261,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/meeting-notes-cleaner/releases/0.1.0.zip",
     "checksum": "40d3d27b8ef42b35b7c76c9b532994acc388bc76488233899c1dd700045259b0",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.566Z"
+    "updatedAt": "2026-03-23T11:14:46.269Z"
   },
   {
     "id": "prompt-lab",
@@ -291,7 +291,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/prompt-lab/releases/0.1.0.zip",
     "checksum": "8a6f2370487443750d26d38df99dc0e5badb67e64edbf61a23be75a6982656f3",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "regex-builder",
@@ -321,7 +321,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/regex-builder/releases/0.1.0.zip",
     "checksum": "9b4ae5f96ad03f8cfd9828360d5a4d0b9a1f9f10c3c708f651815ce0a645d41a",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "research-briefer",
@@ -351,7 +351,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/research-briefer/releases/0.1.0.zip",
     "checksum": "f79ed5dc891fcf261be5c12401514aee56d839d8fa020de112606ecba6b09ece",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "sql-query-writer",
@@ -381,7 +381,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/sql-query-writer/releases/0.1.0.zip",
     "checksum": "95d369aa1582f6085a08cb1ed611f48a0c8879ef83a332165b42d394cdeaf6d5",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "story-world-builder",
@@ -411,7 +411,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/story-world-builder/releases/0.1.0.zip",
     "checksum": "d8d0b8f72d79c2a619cdaf47d44cd293b320b25ad049abd337e3b15b44416599",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "tone-rewriter",
@@ -441,7 +441,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tone-rewriter/releases/0.1.0.zip",
     "checksum": "9e081d309667537f07ed9cd7634335ed18b3677dd97fe3478cc660db007ba891",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.567Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   },
   {
     "id": "tweet-thread-expander",
@@ -472,6 +472,6 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tweet-thread-expander/releases/0.1.0.zip",
     "checksum": "45e2c830ca4e87cfe716dd5a406b49a39acd50b239ecefd0fe184035c8803583",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:12:23.568Z"
+    "updatedAt": "2026-03-23T11:14:46.270Z"
   }
 ]
