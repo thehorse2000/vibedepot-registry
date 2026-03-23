@@ -1,0 +1,19 @@
+{
+  "id": "csv-analyzer",
+  "name": "CSV Analyzer",
+  "version": "0.1.0",
+  "description": "Paste CSV data and ask questions in plain English. Get summaries, trends, and anomalies.",
+  "longDescription": "Paste CSV data and ask questions about it in plain English. AI analyzes your data to find summaries, trends, anomalies, and insights without writing any code. See column stats, distributions, and get answers about your dataset.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "data",
+  "keywords": ["csv", "data", "analysis", "statistics"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

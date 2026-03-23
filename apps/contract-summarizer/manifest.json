@@ -1,0 +1,19 @@
+{
+  "id": "contract-summarizer",
+  "name": "Contract Summarizer",
+  "version": "0.1.0",
+  "description": "Get plain-English summaries of contracts with key terms, obligations, and red flags.",
+  "longDescription": "Paste contract or legal document text and get a clear plain-English breakdown. Identifies key terms, obligations for each party, important dates, financial terms, and potential red flags. Not legal advice — a comprehension aid.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "files",
+  "keywords": ["contract", "legal", "summary", "terms"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

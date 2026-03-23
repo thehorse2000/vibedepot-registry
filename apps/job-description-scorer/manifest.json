@@ -1,0 +1,19 @@
+{
+  "id": "job-description-scorer",
+  "name": "Job Description Scorer",
+  "version": "0.1.0",
+  "description": "Score your resume against job descriptions with gap analysis and tailored bullet suggestions.",
+  "longDescription": "Paste a job description and your resume text to get an instant match score, detailed gap analysis highlighting missing skills, and AI-generated tailored bullet points you can add to your resume. Save analyses for different positions.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "productivity",
+  "keywords": ["job", "resume", "career", "matching"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

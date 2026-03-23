@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alt Text Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Alt Text Generator</h1>
+      <p class="subtitle">Generate accessible alt text for your images</p>
+    </header>
+
+    <div class="form-group">
+      <label for="descriptions">Image Descriptions (one per line)</label>
+      <textarea id="descriptions" rows="8" placeholder="filename.jpg: A photo of a sunset over the ocean&#10;hero-image.png: Team meeting in a modern office&#10;product-shot.jpg: Red sneakers on a white background"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="context">Context</label>
+      <select id="context">
+        <option value="website">Website</option>
+        <option value="social media">Social Media</option>
+        <option value="e-commerce">E-commerce</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button onclick="generateAltText()">Generate Alt Text</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Generating alt text...</div>
+
+    <div id="outputSection" style="display: none;">
+      <table id="resultsTable">
+        <thead>
+          <tr><th>Filename</th><th>Alt Text</th></tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+      <div class="actions">
+        <button onclick="exportJSON()">Export JSON</button>
+        <button onclick="exportCSV()">Export CSV</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

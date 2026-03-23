@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meeting Notes Cleaner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Meeting Notes Cleaner</h1>
+      <p class="subtitle">Paste messy notes, get a structured summary</p>
+    </header>
+
+    <div class="form-group">
+      <label for="notes">Raw Meeting Notes</label>
+      <textarea id="notes" rows="10" placeholder="Paste your messy meeting notes or transcript here..."></textarea>
+    </div>
+
+    <div class="actions">
+      <button id="cleanBtn" onclick="cleanNotes()">Clean Notes</button>
+      <button id="copyBtn" onclick="copyToClipboard()" style="display:none;">Copy to Clipboard</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Cleaning your notes...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Cleaned Notes</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button onclick="saveCleanup()">Save</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Cleanups</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

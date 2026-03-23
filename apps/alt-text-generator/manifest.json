@@ -1,0 +1,19 @@
+{
+  "id": "alt-text-generator",
+  "name": "Alt Text Generator",
+  "version": "0.1.0",
+  "description": "Generate descriptive alt text for images from descriptions. Export as JSON or CSV.",
+  "longDescription": "Describe your images or paste filenames with descriptions, and get well-crafted, accessible alt text for each one. Batch process multiple images at once. Export results as JSON or CSV for easy integration into your projects.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "files",
+  "keywords": ["accessibility", "alt-text", "images", "a11y"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

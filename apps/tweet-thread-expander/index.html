@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tweet Thread Expander</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tweet Thread Expander</h1>
+      <p class="subtitle">Turn tweet threads into polished blog posts</p>
+    </header>
+
+    <div class="form-group">
+      <label for="threadText">Tweet Thread</label>
+      <textarea id="threadText" rows="8" placeholder="Paste your tweet thread text here (one tweet per line or paragraph)..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="style">Output Style</label>
+      <select id="style">
+        <option value="blog post">Blog Post</option>
+        <option value="newsletter">Newsletter</option>
+        <option value="article">Article</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button id="expandBtn" onclick="expandThread()">Expand to Blog Post</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Expanding your thread...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Expanded Post</label>
+        <div id="output" class="output blog-output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button onclick="savePost()">Save</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Posts</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

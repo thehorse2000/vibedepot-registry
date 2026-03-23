@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <h2>Templates</h2>
+      <button class="new-btn" onclick="newTemplate()">+ New Template</button>
+      <div id="templateList" class="template-list"></div>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h1>Prompt Lab</h1>
+        <p class="subtitle">Test and iterate on system prompts with variables</p>
+      </header>
+
+      <div class="form-group">
+        <label for="systemPrompt">System Prompt <span class="hint">Use {{variable}} for dynamic values</span></label>
+        <textarea id="systemPrompt" rows="5" class="mono" placeholder="You are a {{role}} that specializes in {{domain}}..."></textarea>
+      </div>
+
+      <div id="variablesSection" style="display: none;">
+        <label>Variables</label>
+        <div id="variableInputs" class="variable-inputs"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="userMessage">User Message</label>
+        <textarea id="userMessage" rows="3" placeholder="The test message to send..."></textarea>
+      </div>
+
+      <div class="controls-row">
+        <div class="form-group">
+          <label for="temperature">Temperature: <span id="tempValue">0.7</span></label>
+          <input type="range" id="temperature" min="0" max="1" step="0.1" value="0.7" oninput="document.getElementById('tempValue').textContent=this.value" />
+        </div>
+        <div class="form-group">
+          <label for="maxTokens">Max Tokens</label>
+          <input type="number" id="maxTokens" value="1024" min="100" max="4096" step="100" />
+        </div>
+      </div>
+
+      <div class="actions">
+        <button onclick="runPrompt()">Run</button>
+        <button class="secondary" onclick="saveTemplate()">Save Template</button>
+      </div>
+
+      <div id="loading" class="loading" style="display: none;">Running prompt...</div>
+
+      <div id="outputSection" style="display: none;">
+        <div class="form-group">
+          <label>Output</label>
+          <div id="output" class="output"></div>
+        </div>
+      </div>
+
+      <div id="historySection" style="display: none;">
+        <h2>Run History</h2>
+        <div id="historyList"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

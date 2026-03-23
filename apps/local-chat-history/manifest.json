@@ -1,0 +1,19 @@
+{
+  "id": "local-chat-history",
+  "name": "Local Chat History",
+  "version": "0.1.0",
+  "description": "A persistent AI chat that saves every conversation locally.",
+  "longDescription": "Chat with AI and keep every conversation saved locally on your machine. Create multiple conversation threads, search through past messages, and continue where you left off. All data stays on your device — your own private chat log.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "utilities",
+  "keywords": ["chat", "history", "conversation", "local"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "storage.db"]
+}

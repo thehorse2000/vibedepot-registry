@@ -1,0 +1,19 @@
+{
+  "id": "meeting-notes-cleaner",
+  "name": "Meeting Notes Cleaner",
+  "version": "0.1.0",
+  "description": "Clean up messy meeting notes into structured summaries with decisions, actions, and owners.",
+  "longDescription": "Paste in raw transcript text or messy bullet notes from any meeting. AI extracts and organizes key decisions, action items with owners, and a concise summary. Copy the cleaned notes to clipboard instantly.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "productivity",
+  "keywords": ["meeting", "notes", "summary", "transcript"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "clipboard"]
+}

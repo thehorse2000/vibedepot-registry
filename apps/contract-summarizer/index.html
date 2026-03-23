@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contract Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Contract Summarizer</h1>
+      <p class="subtitle">Plain-English contract analysis</p>
+    </header>
+
+    <div class="disclaimer">This tool provides a comprehension aid only — not legal advice. Consult a qualified attorney for legal decisions.</div>
+
+    <div class="form-group">
+      <label for="contractText">Contract Text</label>
+      <textarea id="contractText" rows="10" placeholder="Paste your contract or legal document text here..."></textarea>
+    </div>
+
+    <div class="actions">
+      <button onclick="analyzeContract()">Analyze Contract</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Analyzing contract...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Analysis</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="saveAnalysis()">Save Analysis</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Analyses</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

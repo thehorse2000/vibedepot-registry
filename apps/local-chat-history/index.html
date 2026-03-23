@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Chat History</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <button class="new-chat-btn" onclick="newConversation()">+ New Chat</button>
+      <div id="conversationList" class="conversation-list"></div>
+    </aside>
+    <main class="chat-main">
+      <div id="emptyState" class="empty-state">
+        <h2>Local Chat History</h2>
+        <p>Your private AI chat log. Start a new conversation or select one from the sidebar.</p>
+      </div>
+      <div id="messagesContainer" class="messages" style="display: none;"></div>
+      <div id="inputBar" class="input-bar" style="display: none;">
+        <textarea id="messageInput" rows="1" placeholder="Type a message..." onkeydown="handleKey(event)"></textarea>
+        <button id="sendBtn" onclick="sendMessage()">Send</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

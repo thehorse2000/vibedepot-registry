@@ -1,0 +1,19 @@
+{
+  "id": "tweet-thread-expander",
+  "name": "Tweet Thread Expander",
+  "version": "0.1.0",
+  "description": "Turn Twitter/X threads into polished long-form blog posts.",
+  "longDescription": "Paste raw tweet thread text and get a polished, well-structured blog post. AI expands on the ideas, adds transitions, and creates a cohesive narrative from fragmented tweets. Copy the result or save for later editing.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "writing",
+  "keywords": ["twitter", "blog", "writing", "thread"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "network", "clipboard"]
+}

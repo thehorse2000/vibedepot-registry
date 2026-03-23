@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Description Scorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Job Description Scorer</h1>
+      <p class="subtitle">Score your resume against any job description</p>
+    </header>
+
+    <div class="form-group">
+      <label for="jobDesc">Job Description</label>
+      <textarea id="jobDesc" rows="6" placeholder="Paste the job description here..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="resume">Your Resume</label>
+      <textarea id="resume" rows="6" placeholder="Paste your resume text here..."></textarea>
+    </div>
+
+    <div class="actions">
+      <button id="analyzeBtn" onclick="analyzeMatch()">Analyze Match</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Analyzing your match...</div>
+
+    <div id="scoreSection" style="display: none;">
+      <div class="score-display">
+        <div id="scoreNumber" class="score-number">--</div>
+        <div class="score-label">Match Score</div>
+      </div>
+    </div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Analysis</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="saveAnalysis()">Save Analysis</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Analyses</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

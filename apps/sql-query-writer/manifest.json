@@ -1,0 +1,19 @@
+{
+  "id": "sql-query-writer",
+  "name": "SQL Query Writer",
+  "version": "0.1.0",
+  "description": "Describe what data you want in plain English, get a production-ready SQL query.",
+  "longDescription": "Turn natural language into production-ready SQL queries. Describe the data you need, optionally provide your schema, and get a well-formatted query with explanation. Supports PostgreSQL, MySQL, and SQLite dialects. Save queries for reuse.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "coding",
+  "keywords": ["sql", "query", "database", "coding"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "clipboard"]
+}

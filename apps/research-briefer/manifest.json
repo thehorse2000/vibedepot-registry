@@ -1,0 +1,19 @@
+{
+  "id": "research-briefer",
+  "name": "Research Briefer",
+  "version": "0.1.0",
+  "description": "Enter a topic and get a structured research briefing with key findings and analysis.",
+  "longDescription": "Enter any topic and get a comprehensive, structured research briefing. AI synthesizes knowledge into an organized report with background, key findings, different perspectives, and actionable takeaways. Save briefings for reference.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "research",
+  "keywords": ["research", "briefing", "analysis", "report"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "network"]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Story World Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Story World Builder</h1>
+      <p class="subtitle">Build persistent fictional worlds</p>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="characters" onclick="switchTab('characters')">Characters</button>
+      <button class="tab" data-tab="locations" onclick="switchTab('locations')">Locations</button>
+      <button class="tab" data-tab="lore" onclick="switchTab('lore')">Lore</button>
+      <button class="tab" data-tab="chat" onclick="switchTab('chat')">Ask About World</button>
+    </nav>
+
+    <!-- Characters Tab -->
+    <div id="tab-characters" class="tab-content active">
+      <div class="add-form">
+        <input type="text" id="charName" placeholder="Character name" />
+        <input type="text" id="charRole" placeholder="Role (e.g., Protagonist, Villain)" />
+        <textarea id="charDesc" rows="2" placeholder="Description..."></textarea>
+        <input type="text" id="charTraits" placeholder="Traits (comma-separated)" />
+        <button onclick="addCharacter()">Add Character</button>
+      </div>
+      <div id="charactersList" class="entries-list"></div>
+    </div>
+
+    <!-- Locations Tab -->
+    <div id="tab-locations" class="tab-content">
+      <div class="add-form">
+        <input type="text" id="locName" placeholder="Location name" />
+        <input type="text" id="locType" placeholder="Type (e.g., City, Forest, Castle)" />
+        <textarea id="locDesc" rows="2" placeholder="Description..."></textarea>
+        <button onclick="addLocation()">Add Location</button>
+      </div>
+      <div id="locationsList" class="entries-list"></div>
+    </div>
+
+    <!-- Lore Tab -->
+    <div id="tab-lore" class="tab-content">
+      <div class="add-form">
+        <input type="text" id="loreTitle" placeholder="Title" />
+        <input type="text" id="loreCategory" placeholder="Category (e.g., History, Magic, Politics)" />
+        <textarea id="loreContent" rows="3" placeholder="Content..."></textarea>
+        <button onclick="addLore()">Add Lore Entry</button>
+      </div>
+      <div id="loreList" class="entries-list"></div>
+    </div>
+
+    <!-- Chat Tab -->
+    <div id="tab-chat" class="tab-content">
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="chatInput" placeholder="Ask about your world..." onkeydown="if(event.key==='Enter')askWorld()" />
+        <button onclick="askWorld()">Ask</button>
+      </div>
+    </div>
+
+    <!-- Detail/Expand Panel -->
+    <div id="detailPanel" class="detail-panel" style="display: none;">
+      <div class="detail-header">
+        <h2 id="detailTitle"></h2>
+        <button class="close-btn" onclick="closeDetail()">x</button>
+      </div>
+      <div id="detailContent" class="detail-content"></div>
+      <div id="expandedContent" class="expanded-content"></div>
+      <div class="actions">
+        <button onclick="expandWithAI()">Expand with AI</button>
+        <button class="danger" onclick="deleteEntry()">Delete</button>
+      </div>
+      <div id="expandLoading" class="loading" style="display: none;">Expanding...</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

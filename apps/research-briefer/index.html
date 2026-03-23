@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Briefer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Research Briefer</h1>
+      <p class="subtitle">Enter a topic and get a structured research briefing</p>
+    </header>
+
+    <div class="form-group">
+      <label for="topic">Topic</label>
+      <textarea
+        id="topic"
+        rows="3"
+        placeholder="e.g., The current state of quantum computing, Impact of remote work on productivity..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Briefing Depth</label>
+      <div class="depth-selector">
+        <button class="depth-option" data-depth="quick">Quick Brief</button>
+        <button class="depth-option active" data-depth="standard">Standard</button>
+        <button class="depth-option" data-depth="deep">Deep Dive</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="focusAreas">Focus Areas <span class="optional">(optional)</span></label>
+      <input
+        type="text"
+        id="focusAreas"
+        placeholder="e.g., economic impact, recent developments, key players"
+      />
+    </div>
+
+    <div class="actions">
+      <button id="generateBtn" onclick="generateBriefing()">Generate Briefing</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">
+      <div class="loading-spinner"></div>
+      <span>Researching and synthesizing briefing...</span>
+    </div>
+
+    <div id="errorMsg" class="error-msg" style="display: none;"></div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="output-header">
+        <h2>Briefing</h2>
+        <div class="output-actions">
+          <button class="btn-secondary" onclick="copyBriefing()">Copy</button>
+          <button class="btn-secondary" onclick="saveBriefing()">Save</button>
+        </div>
+      </div>
+      <div id="output" class="output"></div>
+    </div>
+
+    <div id="savedSection" style="display: none;">
+      <h2>Saved Briefings</h2>
+      <div id="savedList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

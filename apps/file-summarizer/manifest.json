@@ -1,0 +1,19 @@
+{
+  "id": "file-summarizer",
+  "name": "File Summarizer",
+  "version": "0.1.0",
+  "description": "Paste document text and get a concise summary with key points extracted.",
+  "longDescription": "Paste the text content of any document, article, or report and get a clear, concise summary with key points, main arguments, and important details extracted. Choose summary length: brief, standard, or detailed. Save summaries for reference.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "files",
+  "keywords": ["summary", "document", "text", "extract"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv"]
+}

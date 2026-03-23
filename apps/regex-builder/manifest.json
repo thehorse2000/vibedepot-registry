@@ -1,0 +1,19 @@
+{
+  "id": "regex-builder",
+  "name": "Regex Builder",
+  "version": "0.1.0",
+  "description": "Describe what to match in plain English, get a working regex with test cases.",
+  "longDescription": "Describe your pattern matching needs in plain English and get a working regular expression with test cases and a human-readable explanation. Test the regex against sample strings in real-time. Save useful patterns for later.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "coding",
+  "keywords": ["regex", "pattern", "matching", "coding"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "clipboard"]
+}

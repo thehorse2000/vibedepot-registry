@@ -1,0 +1,19 @@
+{
+  "id": "tone-rewriter",
+  "name": "Tone Rewriter",
+  "version": "0.1.0",
+  "description": "Rewrite any text in your chosen tone — formal, casual, bold, empathetic, and more.",
+  "longDescription": "Paste any text and select your desired tone. AI instantly rewrites it while preserving the original meaning. Choose from formal, casual, bold, empathetic, humorous, or concise tones. Copy results to clipboard with one click.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "writing",
+  "keywords": ["tone", "rewrite", "writing", "style"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "clipboard"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "story-world-builder",
+  "name": "Story World Builder",
+  "version": "0.1.0",
+  "description": "Build persistent fictional worlds with characters, locations, and lore.",
+  "longDescription": "Create and manage rich fictional worlds for your stories, games, or creative projects. Add characters, locations, factions, and lore entries. AI helps expand on your ideas, find connections, and generate new content that fits your world. Everything is stored locally.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "fun",
+  "keywords": ["worldbuilding", "fiction", "creative", "storytelling"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "storage.db"]
+}

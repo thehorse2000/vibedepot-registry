@@ -1,0 +1,19 @@
+{
+  "id": "changelog-writer",
+  "name": "Changelog Writer",
+  "version": "0.1.0",
+  "description": "Turn git diffs and commit lists into clean, user-facing changelogs.",
+  "longDescription": "Paste a git diff, commit log, or list of changes and get a polished user-facing changelog. Choose from Keep a Changelog, conventional commits, or bullet-point formats. Perfect for release notes and version updates.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "coding",
+  "keywords": ["changelog", "git", "release", "commits"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "clipboard"]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Changelog Writer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Changelog Writer</h1>
+      <p class="subtitle">Turn commits and diffs into user-facing changelogs</p>
+    </header>
+
+    <div class="form-group">
+      <label for="changes">Git Diff / Commits / Changes</label>
+      <textarea id="changes" rows="8" class="mono" placeholder="Paste your git diff, commit log, or list of changes here..."></textarea>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group flex-1">
+        <label for="format">Format</label>
+        <select id="format">
+          <option value="keepachangelog">Keep a Changelog</option>
+          <option value="conventional">Conventional Commits</option>
+          <option value="bullets">Bullet Points</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="version">Version (optional)</label>
+        <input type="text" id="version" placeholder="e.g., 1.2.0" />
+      </div>
+    </div>
+
+    <div class="actions">
+      <button onclick="generateChangelog()">Generate Changelog</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Generating changelog...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Changelog</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="copyChangelog()">Copy to Clipboard</button>
+        <button onclick="saveChangelog()">Save</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Changelogs</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

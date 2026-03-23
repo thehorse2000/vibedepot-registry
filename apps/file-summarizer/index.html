@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>File Summarizer</h1>
+      <p class="subtitle">Paste document text, get a structured summary</p>
+    </header>
+
+    <div class="form-group">
+      <label for="docText">Document Text <span id="wordCount" class="word-count"></span></label>
+      <textarea id="docText" rows="10" placeholder="Paste your document, article, or report text here..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="detail">Summary Detail Level</label>
+      <select id="detail">
+        <option value="brief">Brief (1-2 paragraphs)</option>
+        <option value="standard" selected>Standard</option>
+        <option value="detailed">Detailed</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button onclick="summarize()">Summarize</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Summarizing...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Summary</label>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="saveSummary()">Save Summary</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Summaries</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

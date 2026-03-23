@@ -1,0 +1,19 @@
+{
+  "id": "prompt-lab",
+  "name": "Prompt Lab",
+  "version": "0.1.0",
+  "description": "Test and iterate on AI prompts with variables. Compare results side-by-side.",
+  "longDescription": "A prompt engineering workbench. Write system prompts with {{variables}}, test them with different inputs, and compare results. Save prompt templates and test sets locally. Perfect for iterating on AI prompts before deploying them.",
+  "author": "vibedepot",
+  "license": "MIT",
+  "entry": "index.html",
+  "thumbnail": "thumbnail.png",
+  "category": "utilities",
+  "keywords": ["prompt", "testing", "ai", "engineering"],
+  "models": {
+    "required": true,
+    "providers": ["anthropic", "openai", "gemini"],
+    "default": "anthropic"
+  },
+  "permissions": ["ai", "storage.kv", "storage.db"]
+}

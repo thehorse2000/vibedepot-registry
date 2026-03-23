@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regex Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Regex Builder</h1>
+      <p class="subtitle">Describe what to match, get a working regex</p>
+    </header>
+
+    <div class="form-group">
+      <label for="description">What do you want to match?</label>
+      <textarea id="description" rows="3" placeholder="e.g., Match email addresses that end in .edu or .org"></textarea>
+    </div>
+
+    <div class="actions">
+      <button onclick="buildRegex()">Build Regex</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Building regex...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Pattern</label>
+        <div class="regex-display">
+          <code id="regexPattern"></code>
+          <button class="copy-btn" onclick="copyRegex()">Copy</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Explanation</label>
+        <div id="explanation" class="output"></div>
+      </div>
+
+      <div class="test-results">
+        <div class="test-col">
+          <label>Should Match</label>
+          <div id="shouldMatch"></div>
+        </div>
+        <div class="test-col">
+          <label>Should NOT Match</label>
+          <div id="shouldNotMatch"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="testInput">Live Tester</label>
+        <textarea id="testInput" rows="3" placeholder="Type test strings here (one per line) to see matches highlighted..."></textarea>
+        <div id="testResults"></div>
+      </div>
+
+      <div class="actions">
+        <button onclick="savePattern()">Save Pattern</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Patterns</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

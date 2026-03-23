@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SQL Query Writer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SQL Query Writer</h1>
+      <p class="subtitle">Describe what you need, get production-ready SQL</p>
+    </header>
+
+    <div class="form-group">
+      <label for="description">What data do you need?</label>
+      <textarea id="description" rows="3" placeholder="e.g., Get the top 10 customers by total order amount in the last 30 days..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="schema">Schema (optional)</label>
+      <textarea id="schema" rows="4" class="mono" placeholder="Paste your table definitions here (CREATE TABLE statements or column names)..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="dialect">SQL Dialect</label>
+      <select id="dialect">
+        <option value="PostgreSQL">PostgreSQL</option>
+        <option value="MySQL">MySQL</option>
+        <option value="SQLite">SQLite</option>
+      </select>
+    </div>
+
+    <div class="actions">
+      <button onclick="generateQuery()">Generate Query</button>
+    </div>
+
+    <div id="loading" class="loading" style="display: none;">Generating query...</div>
+
+    <div id="outputSection" style="display: none;">
+      <div class="form-group">
+        <label>Generated SQL</label>
+        <div id="sqlOutput" class="sql-output"></div>
+      </div>
+      <div class="form-group">
+        <label>Explanation</label>
+        <div id="explanation" class="output"></div>
+      </div>
+      <div class="actions">
+        <button onclick="copySql()">Copy SQL</button>
+        <button onclick="saveQuery()">Save</button>
+      </div>
+    </div>
+
+    <div id="historySection" style="display: none;">
+      <h2>Saved Queries</h2>
+      <div id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
