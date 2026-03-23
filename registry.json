@@ -1,5 +1,122 @@
 [
   {
+    "id": "alt-text-generator",
+    "name": "Alt Text Generator",
+    "version": "0.1.0",
+    "description": "Generate descriptive alt text for images from descriptions. Export as JSON or CSV.",
+    "longDescription": "Describe your images or paste filenames with descriptions, and get well-crafted, accessible alt text for each one. Batch process multiple images at once. Export results as JSON or CSV for easy integration into your projects.",
+    "author": "vibedepot",
+    "category": "files",
+    "keywords": [
+      "accessibility",
+      "alt-text",
+      "images",
+      "a11y"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/alt-text-generator/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/alt-text-generator/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.867Z"
+  },
+  {
+    "id": "changelog-writer",
+    "name": "Changelog Writer",
+    "version": "0.1.0",
+    "description": "Turn git diffs and commit lists into clean, user-facing changelogs.",
+    "longDescription": "Paste a git diff, commit log, or list of changes and get a polished user-facing changelog. Choose from Keep a Changelog, conventional commits, or bullet-point formats. Perfect for release notes and version updates.",
+    "author": "vibedepot",
+    "category": "coding",
+    "keywords": [
+      "changelog",
+      "git",
+      "release",
+      "commits"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/changelog-writer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/changelog-writer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.867Z"
+  },
+  {
+    "id": "contract-summarizer",
+    "name": "Contract Summarizer",
+    "version": "0.1.0",
+    "description": "Get plain-English summaries of contracts with key terms, obligations, and red flags.",
+    "longDescription": "Paste contract or legal document text and get a clear plain-English breakdown. Identifies key terms, obligations for each party, important dates, financial terms, and potential red flags. Not legal advice — a comprehension aid.",
+    "author": "vibedepot",
+    "category": "files",
+    "keywords": [
+      "contract",
+      "legal",
+      "summary",
+      "terms"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/contract-summarizer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/contract-summarizer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.868Z"
+  },
+  {
+    "id": "csv-analyzer",
+    "name": "CSV Analyzer",
+    "version": "0.1.0",
+    "description": "Paste CSV data and ask questions in plain English. Get summaries, trends, and anomalies.",
+    "longDescription": "Paste CSV data and ask questions about it in plain English. AI analyzes your data to find summaries, trends, anomalies, and insights without writing any code. See column stats, distributions, and get answers about your dataset.",
+    "author": "vibedepot",
+    "category": "data",
+    "keywords": [
+      "csv",
+      "data",
+      "analysis",
+      "statistics"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/csv-analyzer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/csv-analyzer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.868Z"
+  },
+  {
     "id": "email-writer",
     "name": "Email Writer",
     "version": "0.1.0",
@@ -26,6 +143,335 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/email-writer/releases/0.1.0.zip",
     "checksum": "12ec39b724e83a1a0234ab49d3c4c7e8e232dc2ed796185b4dcbbf7064bb57d3",
     "installs": 0,
-    "updatedAt": "2026-03-21T07:50:04.615Z"
+    "updatedAt": "2026-03-23T11:05:50.868Z"
+  },
+  {
+    "id": "file-summarizer",
+    "name": "File Summarizer",
+    "version": "0.1.0",
+    "description": "Paste document text and get a concise summary with key points extracted.",
+    "longDescription": "Paste the text content of any document, article, or report and get a clear, concise summary with key points, main arguments, and important details extracted. Choose summary length: brief, standard, or detailed. Save summaries for reference.",
+    "author": "vibedepot",
+    "category": "files",
+    "keywords": [
+      "summary",
+      "document",
+      "text",
+      "extract"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/file-summarizer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/file-summarizer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.869Z"
+  },
+  {
+    "id": "job-description-scorer",
+    "name": "Job Description Scorer",
+    "version": "0.1.0",
+    "description": "Score your resume against job descriptions with gap analysis and tailored bullet suggestions.",
+    "longDescription": "Paste a job description and your resume text to get an instant match score, detailed gap analysis highlighting missing skills, and AI-generated tailored bullet points you can add to your resume. Save analyses for different positions.",
+    "author": "vibedepot",
+    "category": "productivity",
+    "keywords": [
+      "job",
+      "resume",
+      "career",
+      "matching"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/job-description-scorer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/job-description-scorer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.869Z"
+  },
+  {
+    "id": "local-chat-history",
+    "name": "Local Chat History",
+    "version": "0.1.0",
+    "description": "A persistent AI chat that saves every conversation locally.",
+    "longDescription": "Chat with AI and keep every conversation saved locally on your machine. Create multiple conversation threads, search through past messages, and continue where you left off. All data stays on your device — your own private chat log.",
+    "author": "vibedepot",
+    "category": "utilities",
+    "keywords": [
+      "chat",
+      "history",
+      "conversation",
+      "local"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "storage.db"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/local-chat-history/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/local-chat-history/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.869Z"
+  },
+  {
+    "id": "meeting-notes-cleaner",
+    "name": "Meeting Notes Cleaner",
+    "version": "0.1.0",
+    "description": "Clean up messy meeting notes into structured summaries with decisions, actions, and owners.",
+    "longDescription": "Paste in raw transcript text or messy bullet notes from any meeting. AI extracts and organizes key decisions, action items with owners, and a concise summary. Copy the cleaned notes to clipboard instantly.",
+    "author": "vibedepot",
+    "category": "productivity",
+    "keywords": [
+      "meeting",
+      "notes",
+      "summary",
+      "transcript"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/meeting-notes-cleaner/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/meeting-notes-cleaner/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.869Z"
+  },
+  {
+    "id": "prompt-lab",
+    "name": "Prompt Lab",
+    "version": "0.1.0",
+    "description": "Test and iterate on AI prompts with variables. Compare results side-by-side.",
+    "longDescription": "A prompt engineering workbench. Write system prompts with {{variables}}, test them with different inputs, and compare results. Save prompt templates and test sets locally. Perfect for iterating on AI prompts before deploying them.",
+    "author": "vibedepot",
+    "category": "utilities",
+    "keywords": [
+      "prompt",
+      "testing",
+      "ai",
+      "engineering"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "storage.db"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/prompt-lab/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/prompt-lab/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.869Z"
+  },
+  {
+    "id": "regex-builder",
+    "name": "Regex Builder",
+    "version": "0.1.0",
+    "description": "Describe what to match in plain English, get a working regex with test cases.",
+    "longDescription": "Describe your pattern matching needs in plain English and get a working regular expression with test cases and a human-readable explanation. Test the regex against sample strings in real-time. Save useful patterns for later.",
+    "author": "vibedepot",
+    "category": "coding",
+    "keywords": [
+      "regex",
+      "pattern",
+      "matching",
+      "coding"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/regex-builder/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/regex-builder/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
+  },
+  {
+    "id": "research-briefer",
+    "name": "Research Briefer",
+    "version": "0.1.0",
+    "description": "Enter a topic and get a structured research briefing with key findings and analysis.",
+    "longDescription": "Enter any topic and get a comprehensive, structured research briefing. AI synthesizes knowledge into an organized report with background, key findings, different perspectives, and actionable takeaways. Save briefings for reference.",
+    "author": "vibedepot",
+    "category": "research",
+    "keywords": [
+      "research",
+      "briefing",
+      "analysis",
+      "report"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "network"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/research-briefer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/research-briefer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
+  },
+  {
+    "id": "sql-query-writer",
+    "name": "SQL Query Writer",
+    "version": "0.1.0",
+    "description": "Describe what data you want in plain English, get a production-ready SQL query.",
+    "longDescription": "Turn natural language into production-ready SQL queries. Describe the data you need, optionally provide your schema, and get a well-formatted query with explanation. Supports PostgreSQL, MySQL, and SQLite dialects. Save queries for reuse.",
+    "author": "vibedepot",
+    "category": "coding",
+    "keywords": [
+      "sql",
+      "query",
+      "database",
+      "coding"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/sql-query-writer/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/sql-query-writer/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
+  },
+  {
+    "id": "story-world-builder",
+    "name": "Story World Builder",
+    "version": "0.1.0",
+    "description": "Build persistent fictional worlds with characters, locations, and lore.",
+    "longDescription": "Create and manage rich fictional worlds for your stories, games, or creative projects. Add characters, locations, factions, and lore entries. AI helps expand on your ideas, find connections, and generate new content that fits your world. Everything is stored locally.",
+    "author": "vibedepot",
+    "category": "fun",
+    "keywords": [
+      "worldbuilding",
+      "fiction",
+      "creative",
+      "storytelling"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "storage.db"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/story-world-builder/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/story-world-builder/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
+  },
+  {
+    "id": "tone-rewriter",
+    "name": "Tone Rewriter",
+    "version": "0.1.0",
+    "description": "Rewrite any text in your chosen tone — formal, casual, bold, empathetic, and more.",
+    "longDescription": "Paste any text and select your desired tone. AI instantly rewrites it while preserving the original meaning. Choose from formal, casual, bold, empathetic, humorous, or concise tones. Copy results to clipboard with one click.",
+    "author": "vibedepot",
+    "category": "writing",
+    "keywords": [
+      "tone",
+      "rewrite",
+      "writing",
+      "style"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tone-rewriter/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tone-rewriter/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
+  },
+  {
+    "id": "tweet-thread-expander",
+    "name": "Tweet Thread Expander",
+    "version": "0.1.0",
+    "description": "Turn Twitter/X threads into polished long-form blog posts.",
+    "longDescription": "Paste raw tweet thread text and get a polished, well-structured blog post. AI expands on the ideas, adds transitions, and creates a cohesive narrative from fragmented tweets. Copy the result or save for later editing.",
+    "author": "vibedepot",
+    "category": "writing",
+    "keywords": [
+      "twitter",
+      "blog",
+      "writing",
+      "thread"
+    ],
+    "permissions": [
+      "ai",
+      "storage.kv",
+      "network",
+      "clipboard"
+    ],
+    "providers": [
+      "anthropic",
+      "openai",
+      "gemini"
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tweet-thread-expander/thumbnail.png",
+    "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tweet-thread-expander/releases/0.1.0.zip",
+    "checksum": "",
+    "installs": 0,
+    "updatedAt": "2026-03-23T11:05:50.870Z"
   }
 ]
