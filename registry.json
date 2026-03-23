@@ -24,9 +24,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/alt-text-generator/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/alt-text-generator/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "3c5c63bbe4e773d380c759f85746d099999d6a8ec49c78cb850fad4672ade2c1",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.867Z"
+    "updatedAt": "2026-03-23T11:12:23.564Z"
   },
   {
     "id": "changelog-writer",
@@ -54,9 +54,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/changelog-writer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/changelog-writer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "52da4fcee670614189a201e44810fde7ff5dac8c8d7d4c95379e16f091b7af44",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.867Z"
+    "updatedAt": "2026-03-23T11:12:23.565Z"
   },
   {
     "id": "contract-summarizer",
@@ -83,9 +83,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/contract-summarizer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/contract-summarizer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "860aa771820341b678411772022eed7254992b89417232396ff652530374c061",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.868Z"
+    "updatedAt": "2026-03-23T11:12:23.565Z"
   },
   {
     "id": "csv-analyzer",
@@ -112,9 +112,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/csv-analyzer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/csv-analyzer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "f6f59a25b0759c2e814f0854ae0db189c4daffa1bf10c4ce55c803f034275054",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.868Z"
+    "updatedAt": "2026-03-23T11:12:23.565Z"
   },
   {
     "id": "email-writer",
@@ -143,7 +143,7 @@
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/email-writer/releases/0.1.0.zip",
     "checksum": "12ec39b724e83a1a0234ab49d3c4c7e8e232dc2ed796185b4dcbbf7064bb57d3",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.868Z"
+    "updatedAt": "2026-03-23T11:12:23.566Z"
   },
   {
     "id": "file-summarizer",
@@ -170,9 +170,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/file-summarizer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/file-summarizer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "c76d29d6ebf7d2eccf5264b7da0ee2f8d78781f707f2dfe6208f8c94f22c451f",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.869Z"
+    "updatedAt": "2026-03-23T11:12:23.566Z"
   },
   {
     "id": "job-description-scorer",
@@ -199,9 +199,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/job-description-scorer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/job-description-scorer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "37d4922b90f8b12346a01f2de52988a9065f5d63c1a9abf53b81b7f2128d36b7",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.869Z"
+    "updatedAt": "2026-03-23T11:12:23.566Z"
   },
   {
     "id": "local-chat-history",
@@ -229,9 +229,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/local-chat-history/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/local-chat-history/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "47cd04db11415540a0ab69d7d0f5abb4aae891a5247ca8322cff2ac2a30c1abf",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.869Z"
+    "updatedAt": "2026-03-23T11:12:23.566Z"
   },
   {
     "id": "meeting-notes-cleaner",
@@ -259,9 +259,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/meeting-notes-cleaner/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/meeting-notes-cleaner/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "40d3d27b8ef42b35b7c76c9b532994acc388bc76488233899c1dd700045259b0",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.869Z"
+    "updatedAt": "2026-03-23T11:12:23.566Z"
   },
   {
     "id": "prompt-lab",
@@ -289,9 +289,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/prompt-lab/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/prompt-lab/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "8a6f2370487443750d26d38df99dc0e5badb67e64edbf61a23be75a6982656f3",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.869Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "regex-builder",
@@ -319,9 +319,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/regex-builder/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/regex-builder/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "9b4ae5f96ad03f8cfd9828360d5a4d0b9a1f9f10c3c708f651815ce0a645d41a",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "research-briefer",
@@ -349,9 +349,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/research-briefer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/research-briefer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "f79ed5dc891fcf261be5c12401514aee56d839d8fa020de112606ecba6b09ece",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "sql-query-writer",
@@ -379,9 +379,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/sql-query-writer/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/sql-query-writer/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "95d369aa1582f6085a08cb1ed611f48a0c8879ef83a332165b42d394cdeaf6d5",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "story-world-builder",
@@ -409,9 +409,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/story-world-builder/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/story-world-builder/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "d8d0b8f72d79c2a619cdaf47d44cd293b320b25ad049abd337e3b15b44416599",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "tone-rewriter",
@@ -439,9 +439,9 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tone-rewriter/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tone-rewriter/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "9e081d309667537f07ed9cd7634335ed18b3677dd97fe3478cc660db007ba891",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.567Z"
   },
   {
     "id": "tweet-thread-expander",
@@ -470,8 +470,8 @@
     ],
     "thumbnail": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tweet-thread-expander/thumbnail.png",
     "bundle": "https://raw.githubusercontent.com/thehorse2000/vibedepot-registry/main/apps/tweet-thread-expander/releases/0.1.0.zip",
-    "checksum": "",
+    "checksum": "45e2c830ca4e87cfe716dd5a406b49a39acd50b239ecefd0fe184035c8803583",
     "installs": 0,
-    "updatedAt": "2026-03-23T11:05:50.870Z"
+    "updatedAt": "2026-03-23T11:12:23.568Z"
   }
 ]
